@@ -1,12 +1,42 @@
-# React + Vite
+# 🧑‍💻 Kunal Lad – Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my **personal developer portfolio** built with **React + Vite + Tailwind CSS**, showcasing my journey, skills, and passion for building web experiences that are both beautiful and functional.
 
-Currently, two official plugins are available:
+## 🌟 Why I Built This
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I’m Kunal Lad — a husband, father, and self-taught developer working night shifts at a BPO while learning to code.  
+Every line of this portfolio is written with the hope to create a better life for my family. It’s not just a website — it's my story.
 
-## Expanding the ESLint configuration
+## 💡 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Responsive design (Mobile, Tablet, Desktop)
+- 🌙 Light & Dark Mode toggle
+- 📄 Resume download button
+- 📬 Contact Me section
+- 💻 Projects & Skills (coming soon)
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [Deployed on Vercel](https://vercel.com)
+
+## 🚀 Live Demo
+
+👉 [kunaldev-porfolio.vercel.app](https://kunaldev-porfolio.vercel.app)
+
+---
+
+## 🤝 Connect With Me
+
+- LinkedIn: [linkedin.com/in/kunal-lad](https://linkedin.com/in/kunal-lad)
+- Email: `your@email.com` _(update this)_
+- Portfolio: [kunaldev-porfolio.vercel.app](https://kunaldev-porfolio.vercel.app)
+
+---
+
+> _"I don't just build websites, I build dreams — mine and yours."_  
+> — Kunal Lad
+
