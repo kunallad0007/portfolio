@@ -31,8 +31,8 @@ Every line of this portfolio is written with the hope to create a better life fo
 
 ## 🤝 Connect With Me
 
-- LinkedIn: [linkedin.com/in/kunal-lad](https://linkedin.com/in/kunal-lad)
-- Email: `your@email.com` _(update this)_
+- LinkedIn: [linkedin.com/in/kunal-lad](https://linkedin.com/in/kunallad0007)
+- Email: kunallad0007@gmail.com
 - Portfolio: [kunaldev-porfolio.vercel.app](https://kunaldev-porfolio.vercel.app)
 
 ---
