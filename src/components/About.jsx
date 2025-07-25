@@ -11,7 +11,7 @@ const About = () => {
         {/* IMAGE SECTION */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="/src/assets/about-image.svg"
+            src="/src/assets/about-section-image.svg"
             alt="Illustrated Nature"
             className="w-full max-w-sm md:max-w-md"
           />
