@@ -22,7 +22,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-2">
             <a
-              href="/Kunal_CV.pdf"
+              href="/Kunal_Lad_Resume.pdf"
               download
               className="px-6 py-3 bg-rose-600 text-white dark:bg-violet-500 font-semibold rounded-lg shadow-md hover:bg-rose-700 dark:hover:bg-violet-600 transition-all duration-200"
             >
