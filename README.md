@@ -1,42 +1,55 @@
 # 🧑‍💻 Kunal Lad – Developer Portfolio
 
-This is my **personal developer portfolio** built with **React + Vite + Tailwind CSS**, showcasing my journey, skills, and passion for building web experiences that are both beautiful and functional.
+This is my **personal developer portfolio** built using **React + Vite + Tailwind CSS**, showcasing my journey, skills, and passion for crafting modern web experiences that are both beautiful and functional.
+
+---
 
 ## 🌟 Why I Built This
 
-I’m Kunal Lad — a husband, father, and self-taught developer working night shifts at a BPO while learning to code.  
-Every line of this portfolio is written with the hope to create a better life for my family. It’s not just a website — it's my story.
+I’m **Kunal Lad** — a husband, a father, and a self-taught developer grinding night shifts in a BPO while learning to code by day.
+
+Every component in this portfolio is more than just code — it’s a reflection of my dream to give my family a better life.  
+This is not just a website. It’s **my story in code**.
+
+---
 
 ## 💡 Features
 
-- ⚡ Responsive design (Mobile, Tablet, Desktop)
-- 🌙 Light & Dark Mode toggle
-- 📄 Resume download button
-- 📬 Contact Me section
-- 💻 Projects & Skills (coming soon)
+- ⚡ **Fully responsive** (Mobile, Tablet, Desktop)
+- 🌙 **Dark & Light Mode** toggle
+- 📄 **Download Resume** button
+- 💼 **Projects** section
+- ✍️ **Blog** with dynamic routing
+- 📬 **Contact Me** form
+- 🎨 **Framer Motion** page animations
+- 🌐 Smooth navigation with **scroll spy**
 
-## 🛠️ Built With
+---
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Lucide Icons](https://lucide.dev/)
-- [Deployed on Vercel](https://vercel.com)
+## 🛠️ Tech Stack
+
+- ⚛️ [React](https://reactjs.org/)
+- ⚡ [Vite](https://vitejs.dev/)
+- 🎨 [Tailwind CSS](https://tailwindcss.com/)
+- 🖼️ [Lucide Icons](https://lucide.dev/)
+- 🎞️ [Framer Motion](https://www.framer.com/motion/)
+- 🚀 Deployed on [Vercel](https://vercel.com)
+
+---
 
 ## 🚀 Live Demo
 
-👉 [kunaldev-porfolio.vercel.app](https://kunaldev-porfolio.vercel.app)
+🔗 [https://kunaldev-portfolio.vercel.app](https://kunaldev-portfolio.vercel.app)
 
 ---
 
 ## 🤝 Connect With Me
 
-- LinkedIn: [linkedin.com/in/kunal-lad](https://linkedin.com/in/kunallad0007)
-- Email: kunallad0007@gmail.com
-- Portfolio: [kunaldev-porfolio.vercel.app](https://kunaldev-porfolio.vercel.app)
+- 🔗 [LinkedIn – Kunal Lad](https://linkedin.com/in/kunallad0007)
+- 📧 Email: [kunallad0007@gmail.com](mailto:kunallad0007@gmail.com)
+- 🌐 Portfolio: [kunaldev-portfolio.vercel.app](https://portfolio-kunal-lad.vercel.app/)
 
 ---
 
-> _"I don't just build websites, I build dreams — mine and yours."_  
-> — Kunal Lad
-
+> _"I don't just build websites — I build dreams. Mine... and yours."_  
+> — **Kunal Lad**
