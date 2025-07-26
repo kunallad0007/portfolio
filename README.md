@@ -39,7 +39,7 @@ This is not just a website. It’s **my story in code**.
 
 ## 🚀 Live Demo
 
-🔗 [https://kunaldev-portfolio.vercel.app](https://kunaldev-portfolio.vercel.app)
+🔗 [https://portfolio-kunal-lad.vercel.app](https://portfolio-kunal-lad.vercel.app/)
 
 ---
 
@@ -47,7 +47,7 @@ This is not just a website. It’s **my story in code**.
 
 - 🔗 [LinkedIn – Kunal Lad](https://linkedin.com/in/kunallad0007)
 - 📧 Email: [kunallad0007@gmail.com](mailto:kunallad0007@gmail.com)
-- 🌐 Portfolio: [kunaldev-portfolio.vercel.app](https://portfolio-kunal-lad.vercel.app/)
+- 🌐 Portfolio: [portfolio-kunal-lad.vercel.app](https://portfolio-kunal-lad.vercel.app/)
 
 ---
 
