@@ -37,7 +37,6 @@ const Navbar = () => {
     }
   };
 
-  // Portfolio Nav Scroll Spy
   useEffect(() => {
     if (!isBlogPage) {
       const handleScroll = () => {
@@ -59,9 +58,6 @@ const Navbar = () => {
     }
   }, [isBlogPage]);
 
-  // ---------------------
-  // PORTFOLIO NAV
-  // ---------------------
   const PortfolioNav = () => (
     <motion.nav
       initial={{ y: -40, opacity: 0 }}
@@ -72,19 +68,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center text-black dark:text-white">
         {/* Logo */}
         <div className="flex items-center space-x-3">
-          <img
-            src={logoDark}
-            alt="Logo"
-            className="block dark:hidden h-8 w-auto"
-          />
-          <img
-            src={logoLight}
-            alt="Logo"
-            className="hidden dark:block h-8 w-auto"
-          />
+          <img src={logoDark} alt="Logo" className="block dark:hidden h-8 w-auto" />
+          <img src={logoLight} alt="Logo" className="hidden dark:block h-8 w-auto" />
           <span className="text-xl md:text-2xl font-bold tracking-wide">
-            KUNAL.
-            <span className="text-rose-600 dark:text-violet-400">DEV</span>
+            KUNAL.<span className="text-rose-600 dark:text-violet-400">DEV</span>
           </span>
         </div>
 
@@ -106,11 +93,8 @@ const Navbar = () => {
                   onClick={() => {
                     navigate("/");
                     setTimeout(() => {
-                      const section = document.getElementById(
-                        link.toLowerCase()
-                      );
-                      if (section)
-                        section.scrollIntoView({ behavior: "smooth" });
+                      const section = document.getElementById(link.toLowerCase());
+                      if (section) section.scrollIntoView({ behavior: "smooth" });
                     }, 100);
                   }}
                 >
@@ -124,6 +108,7 @@ const Navbar = () => {
               ></span>
             </li>
           ))}
+          {/* Desktop Theme Toggle */}
           <button
             onClick={toggleTheme}
             className="ml-4 p-2 rounded-full transition hover:bg-gray-200 dark:hover:bg-gray-800"
@@ -132,16 +117,27 @@ const Navbar = () => {
           </button>
         </ul>
 
-        {/* Mobile Nav Toggle Button */}
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden p-2 rounded-md focus:outline-none focus:ring-2"
-        >
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        {/* Mobile Buttons */}
+        <div className="md:hidden flex items-center space-x-2">
+          {/* Mobile Theme Toggle */}
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-full transition hover:bg-gray-200 dark:hover:bg-gray-800"
+          >
+            {isDark ? <Sun size={20} /> : <Moon size={20} />}
+          </button>
+
+          {/* Hamburger Menu */}
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="p-2 rounded-md focus:outline-none focus:ring-2"
+          >
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </div>
 
-      {/* Mobile Nav Menu */}
+      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden mt-4 bg-white dark:bg-black px-6 py-4 rounded-md shadow-lg">
           <ul className="space-y-4 text-lg font-semibold">
@@ -159,17 +155,12 @@ const Navbar = () => {
                     onClick={() => {
                       navigate("/");
                       setTimeout(() => {
-                        const section = document.getElementById(
-                          link.toLowerCase()
-                        );
-                        if (section)
-                          section.scrollIntoView({ behavior: "smooth" });
+                        const section = document.getElementById(link.toLowerCase());
+                        if (section) section.scrollIntoView({ behavior: "smooth" });
                       }, 100);
                     }}
                     className={`block hover:text-rose-600 dark:hover:text-violet-400 ${
-                      activeSection === link
-                        ? "text-rose-600 dark:text-violet-400"
-                        : ""
+                      activeSection === link ? "text-rose-600 dark:text-violet-400" : ""
                     }`}
                   >
                     {link}
@@ -177,47 +168,28 @@ const Navbar = () => {
                 )}
               </li>
             ))}
-            <li>
-              <button
-                onClick={toggleTheme}
-                className="p-2 rounded-full transition hover:bg-gray-200 dark:hover:bg-gray-800"
-              >
-                {isDark ? <Sun size={20} /> : <Moon size={20} />}
-              </button>
-            </li>
           </ul>
         </div>
       )}
     </motion.nav>
   );
 
-  // ---------------------
-  // BLOG NAV
-  // ---------------------
   const BlogNav = () => (
     <>
       <nav className="fixed top-0 left-0 w-full z-50 px-6 py-4 bg-white dark:bg-black shadow-md transition">
         <div className="max-w-7xl mx-auto flex justify-between items-center text-black dark:text-white">
-          {/* Just Logo and Theme */}
+          {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img
-              src={logoDark}
-              alt="Logo"
-              className="block dark:hidden h-8 w-auto"
-            />
-            <img
-              src={logoLight}
-              alt="Logo"
-              className="hidden dark:block h-8 w-auto"
-            />
+            <img src={logoDark} alt="Logo" className="block dark:hidden h-8 w-auto" />
+            <img src={logoLight} alt="Logo" className="hidden dark:block h-8 w-auto" />
             <span className="text-xl md:text-2xl font-bold tracking-wide">
-              KUNAL.
-              <span className="text-rose-600 dark:text-violet-400">BLOG</span>
+              KUNAL.<span className="text-rose-600 dark:text-violet-400">BLOG</span>
             </span>
           </div>
+          {/* Theme Toggle */}
           <button
             onClick={toggleTheme}
-            className="ml-4 p-2 rounded-full transition hover:bg-gray-200 dark:hover:bg-gray-800"
+            className="p-2 rounded-full transition hover:bg-gray-200 dark:hover:bg-gray-800"
           >
             {isDark ? <Sun size={20} /> : <Moon size={20} />}
           </button>
@@ -266,9 +238,7 @@ const Navbar = () => {
               after:bg-gradient-to-tr after:from-rose-500/20 after:to-violet-500/20
             `}
           >
-            <span className="inline-block animate-pulse group-hover:hidden">
-              ⛩
-            </span>
+            <span className="inline-block animate-pulse group-hover:hidden">⛩</span>
             <span className="ml-2 hidden group-hover:inline-block whitespace-nowrap transition-all duration-300">
               Visit My Portfolio
             </span>
