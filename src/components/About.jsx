@@ -1,24 +1,38 @@
-// src/components/About.jsx
 import React from "react";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section
+    <motion.section
       id="about"
-      className="min-h-screen flex items-center justify-center px-6 py-12 bg-white dark:bg-black text-black dark:text-white scroll-mt-24"
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="min-h-screen flex items-center justify-center px-6 py-12 bg-gray-100 dark:bg-gray-900 text-black dark:text-white scroll-mt-24"
     >
       <div className="max-w-6xl w-full flex flex-col md:flex-row-reverse items-center gap-12">
         {/* IMAGE SECTION */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <motion.div
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="w-full md:w-1/2 flex justify-center"
+        >
           <img
             src="/about-section-image.svg"
             alt="Illustrated Nature"
             className="w-full max-w-sm md:max-w-md"
           />
-        </div>
+        </motion.div>
 
         {/* STORY SECTION */}
-        <div className="w-full md:w-1/2">
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="w-full md:w-1/2"
+        >
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-center md:text-left">
             👨‍💻 About Me
           </h2>
@@ -44,9 +58,9 @@ const About = () => {
             with the same intensity I’m building mine. Let’s create something
             meaningful together. 💼✨
           </p>
-        </div>
+        </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
