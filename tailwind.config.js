@@ -1,6 +1,6 @@
 // tailwind.config.js
 export default {
-  darkMode: 'class', // Use class strategy for toggling
+  darkMode: 'class', // 👈 Good, keep this for dark mode
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -8,5 +8,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"), // 👈 ADD THIS LINE
+  ],
 }
