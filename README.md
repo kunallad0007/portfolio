@@ -13,27 +13,55 @@ This is not just a website. It’s **my story in code**.
 
 ---
 
-## 💡 Features
+# 📝 Blog Upload Editor – Built with ❤️ by Kunal
 
-- ⚡ **Fully responsive** (Mobile, Tablet, Desktop)
-- 🌙 **Dark & Light Mode** toggle
-- 📄 **Download Resume** button
-- 💼 **Projects** section
-- ✍️ **Blog** with dynamic routing
-- 📬 **Contact Me** form
-- 🎨 **Framer Motion** page animations
-- 🌐 Smooth navigation with **scroll spy**
+This is a **modern, rich-text blog editor** built with React, Tailwind CSS, and ReactQuill. It's designed to feel like Medium, with a premium writing experience and clean UI — perfect for creators and admins.
+
+## ✨ Features
+
+- 🔥 Full-screen distraction-free editor
+- 🖼️ Upload thumbnail from **local system** or **Google Drive**
+- ✍️ Rich text editing with [ReactQuill](https://github.com/zenoamaro/react-quill)
+- 🌗 Light/Dark mode with Tailwind
+- 📊 Live word count
+- 🚀 One-click publish
+- ✅ Google Drive API integration (OAuth-based)
+- 🔒 Auth-ready architecture
 
 ---
 
 ## 🛠️ Tech Stack
 
-- ⚛️ [React](https://reactjs.org/)
-- ⚡ [Vite](https://vitejs.dev/)
-- 🎨 [Tailwind CSS](https://tailwindcss.com/)
-- 🖼️ [Lucide Icons](https://lucide.dev/)
-- 🎞️ [Framer Motion](https://www.framer.com/motion/)
-- 🚀 Deployed on [Vercel](https://vercel.com)
+| Frontend | Description                |
+|----------|----------------------------|
+| React    | Frontend UI framework       |
+| Tailwind CSS | Utility-first CSS for rapid styling |
+| React-Quill | Rich text editor         |
+| Axios    | HTTP client for API requests |
+| Framer Motion | Animations & transitions |
+
+---
+
+🔐 Google Drive Integration
+This app supports uploading images from Google Drive. To enable:
+
+Set up Google OAuth in Google Cloud Console.
+
+Add your credentials in the uploader component.
+
+Make sure your app is in testing or verified mode.
+
+💡 Upcoming Features
+💾 Save as Draft
+
+🔍 Preview Mode
+
+🏷️ Tags, Categories & SEO Metadata
+
+🧠 AI-Based Blog Suggestions
+
+🙌 Made with Vision
+This project is part of my Freedom Plan – building real-world apps to master full-stack development and create long-term passive income.
 
 ---
 
